@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+	<meta name="description" content="portfolio"> 
+	<meta name="keywords" content="portfolio"> 
+	<meta name="author" content="A. Basith"> 
+<title>My Portfolio</title>
+	<style>
+	/* For PCs */
+	* {
+		padding:0;
+		margin:0;
+		font-family: 'Lato', sans-serif;
+		line-height: 1.8em;
+	}
+	header img{
+		width: 120px;
+		float:left;
+		position: relative;
+	}	
+	nav {
+		width:70%;
+		position: absolute;
+		right: 0px;
+		top:40px;
+	}
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;	
+	}
+	nav li > a {
+		display: block;
+		width: 120px;
+		float: right;
+		text-decoration: none;
+		padding: 20px;
+		text-align: center;
+	}
+	nav li a:hover{
+		border-top:5px solid green;
+		font-weight: bold;
+	}
+	main {
+		clear: both;
+	}
+	main img{
+		width: 100%;
+	}
+	article section{
+		width: 44%;
+		padding: 40px;
+		float: left;
+	}
+	article section:last-child{
+		border-left: 1px dashed gray;
+	}
+	article section img{
+		padding: 10px;
+		float: right;
+		width: 150px;
+		
+	}
+	main h1 {
+		position: absolute;
+		top: 300px;
+		font-size: 5em;
+		left: 25%;
+		color: white;
+		animation: mymove 5s;
+	}
+	@keyframes mymove {
+		from {top: 100px;}
+		to {top: 300px;}
+	}
+	footer{
+		clear: both;
+		background-color: #011926;
+		padding: 20px;
+		text-align: center;
+		color: white;
+	}
+	
+	/* For Tablets */
+	@media only screen and (max-width: 768px) {
+		nav {
+		width:90%;
+		position: absolute;
+		right: 0px;
+		top:40px;
+	}
+	main h1 {
+		position: absolute;
+		top: 180px;
+		font-size: 3.5em;
+		left: 12%;
+		color: white;
+		animation: mymove 5s;
+	}
+	@keyframes mymove {
+		from {top: 100px;}
+		to {top: 180px;}
+	}
+
+	article section{
+		width: 50%;
+		padding: 25px;
+		float: left;
+	}
+	}
+
+	/* For Mobiles */
+	@media only screen and (max-width: 482px) {
+	.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+	header img{
+		width: 120px;
+		float:none;
+		position: sticky;
+	}	
+	nav {
+		width:100%;
+		position: sticky;
+		right: 0px;
+		left:0px;
+		top:20px;
+	}
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;	
+	}
+	nav li > a {
+		display: block;
+		width: 100%;
+		float: none;
+		text-decoration: none;
+		padding: 10px;
+		text-align: center;
+	}
+	nav li a:hover{
+		border-top:5px solid green;
+		font-weight: bold;
+	}
+	main h1 {
+		position: relative;
+		top: 100px;
+		font-size: 1.8em;
+		left: 6%;
+		color: white;
+		animation: mymove 5s;
+	}
+	@keyframes mymove {
+		from {top: 50px;}
+		to {top: 100px;}
+	}
+	article section{	
+		width: 100%;
+		padding:5px;
+		float: left;
+	}
+	}
+	</style>
+</head>
+
+<body>
+<header>
+	<img src="./images/logo.png" class="center">
+	<nav>
+		<ul>
+			<li><a href="#">About</a></li>
+			<li><a href="#">My Work</a></li>
+			<li><a href="#">Contacts</a></li>
+			<li><a href="#">Home</a></li>
+		</ul>
+	</nav>
+</header>
+
+<main>
+	<h1>Hello, I'm Abdul Basith</h1>
+	<img src="./images/landscape.jpg">
+</main>
+
+<article>
+	<section>
+	<h3>This is Headline 1</h3>
+	<p><img src="./images/profile.png">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu purus fermentum, faucibus nulla non, egestas lectus. Nullam finibus tempor lorem vel consectetur. Suspendisse a tincidunt orci. Aenean ullamcorper libero id ligula posuere, in hendrerit sem ullamcorper. Donec sit amet ullamcorper nisi. Mauris dapibus aliquam lacus sed tempus. Quisque aliquam, ante ut maximus tincidunt, nulla est luctus lectus, sit amet ultricies tellus lectus quis massa. Proin ut suscipit sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque dui urna, fringilla euismod lectus non, molestie maximus odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque vel nisl ac libero sollicitudin mollis non et nulla.</p>
+
+	</section>
+
+	<section>
+	<h3>This is Headline 2</h3>
+	<p>Cras imperdiet condimentum velit quis efficitur. Nam ut lacus quis felis euismod lobortis sed ut sapien. Proin tempor leo quis justo mollis, luctus hendrerit est mattis. Proin egestas ut odio vel fringilla. Nunc urna nibh, malesuada vitae tristique ac, luctus quis lorem. Etiam a dui eget mauris fermentum imperdiet. Quisque quis velit vitae enim iaculis laoreet. Curabitur sollicitudin nunc ut consequat sagittis. In hac habitasse platea dictumst. Proin vel venenatis nunc. Mauris vel rutrum turpis, sed ultricies quam.</p>
+
+	<p>Cras dui tortor, scelerisque ac porta quis, consectetur quis massa. Quisque eget faucibus urna. Mauris imperdiet, quam id sagittis ultrices, tellus velit auctor purus, nec sodales ante quam ac velit. In fringilla turpis efficitur augue tincidunt semper. Praesent facilisis sodales ipsum vel pretium. Donec convallis erat convallis orci consequat sodales. Nullam gravida ante nibh.</p>
+	</section>
+</article>
+	
+<footer>
+	<p>2019 © Abdul Basith</p>
+</footer>
+</body>
+</html>
