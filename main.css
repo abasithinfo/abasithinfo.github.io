@@ -1,0 +1,140 @@
+  body {
+    font-family: 'Muli', Arial, Helvetica, sans-serif;
+    color: white;
+  }
+
+  #particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ani {
+    position: static;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Saira Extra Condensed', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #131415;
+  }
+
+  .tt {
+    font-size: 1.25rem;
+   
+  }
+
+  h1 {
+    font-size: 6rem;
+    line-height: 5.5rem;
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
+
+  p.lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #131415;
+  }
+
+  .bg-tr{
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar-nav .nav-item .nav-link{
+    
+    font-size: 1.25rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fff;
+  }
+  .navbar-nav > li{
+    padding-left:15px;
+    padding-right:15px;
+  }
+  .fab {
+    color: #131415;
+    font-size: 60px;
+    letter-spacing: 13px;
+    position: relative;
+  }
+  
+  .fab:hover {
+    text-decoration: none;
+    opacity: 0.5;
+    color: #fff;
+  }
+
+  .cover-pg { 
+    text-shadow: 0px 0px 1px #131415;
+    padding-top: 14rem;
+    padding-bottom: 14rem;
+  }
+   
+  .subheading-cover {
+    text-transform: uppercase;
+    font-family: 'Saira Extra Condensed', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #131415;
+  }
+
+  .subheading {
+    text-transform: uppercase;
+    font-family: 'Saira Extra Condensed', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+  }
+
+  #bg-clr {
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(150deg,#53f 15%,#05d5ff 70%,#a6ffcb 94%);
+    background-attachment: fixed;
+
+  }
+
+  .dev-icons {
+    font-size: 3rem;
+  }
+  
+  .dev-icons .list-inline-item i:hover {
+    color:white;
+  }
+ 
+  section.cv-section {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+  }
+  
+  section.cv-section .cv-item .cv-date {
+    min-width: none;
+  }
+
+  @media (min-width: 992px) {
+    body {
+      padding-top: 0;    
+    }
+    section.cv-section {
+      padding-top: 3rem !important;
+      padding-bottom: 3rem !important;
+    }
+  }
+
+  @media (min-width: 768px) {
+    section.cv-section {
+      min-height: 100vh;
+    }
+    section.cv-section .cv-item .cv-date {
+      min-width: 18rem;
+    }
+  }
